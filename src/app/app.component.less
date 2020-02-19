@@ -1,150 +1,88 @@
 
-.sectionHeader {
-    display: grid;
-    grid-template-columns: auto;
-    padding-left: 170px;
-    padding-top: 170px;
-    padding-bottom: 90px;
-    background-image: linear-gradient(to right,#00cec9 ,#6c5ce7, #FEA47F);
-
+#navBar {
+    margin: auto;
+   
+   
 }
 
-.grid-item1 h1 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 50px;
-    margin-bottom: 0;
-
-}
-.grid-item1 p {
-    font-family: 'Raleway', sans-serif;
-    font-size: 25px;
-    margin-top: 10px;
-}
-
-.grid-item1 button {
-    background-color: #130f40;
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-    text-transform: uppercase;
-    padding: 15px 40px 15px 40px;
-    margin-top: 50px;
-    border: none;
-    color: white;
-    border-radius: 30px;
-    cursor: pointer;
-    
-}
-
-.whatIs {
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
-    color: #000;
-    text-align: center;
-}
-
-.whatIsContainer {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-
-}
-
-.whatIsContainer .gridItem1 img {
-    width: 150px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.whatIsContainer .gridItem1 p {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    text-align: center;
-}
-
-.whatIsContainer .gridItem2 img {
-    width: 150px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.whatIsContainer .gridItem2 p {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    text-align: center;
-}
-
-.whatIsContainer .gridItem3 img {
-    width: 150px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.whatIsContainer .gridItem3 p {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    text-align: center;
-}
-
-.whatIsContainer .gridItem4 img {
-    width: 150px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.whatIsContainer .gridItem4 p {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    text-align: center;
-}
-
-.slabsOnPremise {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    margin-top: 100px;
-    margin-left: 130px;
-    margin-right: 80px;
-}
-
-.slabsOnPremise .textItem h1 {
-    font-family: 'Poppins',sans-serif;
-    font-size: 35px;
-    color: black;
-    text-align: left;
-}
-
-.slabsOnPremise .textItem p {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    color: black;
-    text-align: left;
-    margin-right: 150px;
-}
-
-.ready h1 {
-    font-family: 'Poppins',sans-serif;
-    font-size: 35px;
-    color: black;
-    text-align: center;
-
-}
-
-.ready button {
+.topContent {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #130f40;
+    width: 100%;
+    height: 80px;
+    background-color:lavenderblush;
+    justify-content: space-between;
+    align-items: center; 
+    position: fixed;
+    box-shadow: 5px 5px 10px grey;
+    top: 0px;
+}
+
+.flex-item1 a {
+    text-decoration: none;
+
+}
+
+.flex-item1 h1 {
     font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 33px;
+    padding-left: 50px;
+    cursor: pointer;
+
+}
+
+.flex-item2 ul {
+    list-style: none;
+
+}
+
+.flex-item2 li {
+    display: inline-block;
+    padding-left: 25px;
+
+}
+
+.flex-item2 li a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-size: 17px;
+
+}
+
+// .flex-item2 li a:hover {
+//     color: #f7d794 ;
+// }
+.flex-item2 ul li a:hover:not(.active) {
+    color: #f7d794 ;
+}
+
+.flex-item2 ul .active {
+    padding: 8px;
+    font-weight: 900;
+    color: #130f40;
+    border: 1px solid #130f40;
+    border-radius: 5px;
+}
+
+.flex-item3 button {
+    background-color: #130f40;
+    font-family: 'Raleway', sans-serif;
     font-size: 15px;
     text-transform: uppercase;
-    padding: 15px 40px 15px 40px;
-    margin-top: 50px;
+    padding: 15px 25px 15px 25px;
     border: none;
     color: white;
     border-radius: 30px;
+    margin-right: 50px;
     cursor: pointer;
     box-shadow: 10px 10px 20px grey;
+}       
 
+.flex-item3 button:hover {
+    background-color:#f7d794;
 }
+
+
+
